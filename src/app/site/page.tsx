@@ -5,15 +5,15 @@ import { Mail, Phone, Instagram, MapPin, Menu } from "lucide-react";
 
 export default function CortelloDrinksLanding() {
   const images = [
-    "/eventos/bebida2.jpg",
-    "/eventos/bebida1.jpg",
-    "/eventos/bebida3.jpg",
-    "/eventos/bebida5.jpg",
-    "/eventos/bebida6.jpg",
-    "/eventos/bebida9.jpg",
-    "/eventos/bebida8.jpg",
-    "/eventos/bebida7.jpg",
-    "/eventos/bebida10.jpg",
+    "/eventos/bebida2.JPG",
+    "/eventos/bebida1.JPG",
+    "/eventos/bebida3.JPG",
+    "/eventos/bebida5.JPG",
+    "/eventos/bebida6.JPG",
+    "/eventos/bebida9.JPG",
+    "/eventos/bebida8.JPG",
+    "/eventos/bebida7.JPG",
+    "/eventos/bebida10.JPG",
   ];
 
   const [open, setOpen] = useState(false);
@@ -125,17 +125,17 @@ export default function CortelloDrinksLanding() {
             <div className="aspect-[4/5] w-full overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
               <div className="grid h-full grid-cols-2 gap-2 p-2">
                 <img
-                  src="/eventos/bebida1.jpg"
+                  src="/eventos/bebida1.JPG"
                   alt="Drink especial"
                   className="rounded-2xl object-cover w-full h-full"
                 />
                 <img
-                  src="/eventos/bebida7.jpg"
+                  src="/eventos/bebida7.JPG"
                   alt="Drink personalizado"
                   className="rounded-2xl object-cover w-full h-full"
                 />
                 <img
-                  src="eventos/bebida3.jpg"
+                  src="eventos/bebida3.JPG"
                   alt="Montagem Cortello Drinks"
                   className="col-span-2 rounded-2xl object-cover w-full h-full"
                 />
@@ -300,5 +300,6 @@ export default function CortelloDrinksLanding() {
     </div>
   );
 }
+
 
 
