@@ -5,7 +5,7 @@ export const metadata = {
   title: "Cortello Drinks",
   description: "Experiências em coquetelaria para eventos inesquecíveis.",
   icons: {
-    icon: "/logo-cortello.png", // aqui coloca sua imagem da logo
+    icon: "logo-cortello.png", // aqui coloca sua imagem da logo
   },
 };
 
