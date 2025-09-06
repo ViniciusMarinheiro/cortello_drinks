@@ -135,7 +135,7 @@ export default function CortelloDrinksLanding() {
                   className="rounded-2xl object-cover w-full h-full"
                 />
                 <img
-                  src="eventos/bebida3.JPG"
+                  src="/eventos/bebida3.JPG"
                   alt="Montagem Cortello Drinks"
                   className="col-span-2 rounded-2xl object-cover w-full h-full"
                 />
@@ -228,12 +228,12 @@ export default function CortelloDrinksLanding() {
             <div className="rounded-3xl border border-slate-200 bg-neutral-50 p-6 shadow-sm text-center">
               <h3 className="text-lg font-semibold mb-4">Entre em contato</h3>
               <p className="mb-6 text-slate-600">
-                Fale com a Cortello Drinks pelo WhatsApp ou siga nossas redes sociais.
+                Fale com a Cortello Drinks pelo WhatsApp e siga nossas redes sociais.
               </p>
 
               <div className="flex flex-col gap-4">
                 <a
-                  href="https://wa.me/5511<numeroaqui>?text=Olá,%20gostaria%20de%20um%20orçamento, por favor"
+                  href="https://wa.me/5511997889577?text=Olá,%20vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento, por favor"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded-2xl px-6 py-3 font-medium text-white text-center"
@@ -243,7 +243,7 @@ export default function CortelloDrinksLanding() {
                 </a>
 
                 <a
-                  href="https://www.instagram.com/<conta_aqui>/"
+                  href="https://www.instagram.com/cortello_drinks/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded-2xl px-6 py-3 font-medium text-white text-center"
@@ -259,16 +259,22 @@ export default function CortelloDrinksLanding() {
               <p className="text-slate-600">
                 Estamos disponíveis para tirar dúvidas e preparar um orçamento sob medida para seu evento.
               </p>
-              <div className="space-y- text-slate-700">
-                <Phone className="h-5 w-5" /> (11) Seu numero aqui
-                <br/>
-                <MapPin className="h-5 w-5" /> São Paulo, SP
+              <div className="space-y-2 text-slate-700">
+                <div className="flex items-center gap-2">
+                  <Phone className="h-5 w-5" />
+                  <span>(11) 99788-9577</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <MapPin className="h-5 w-5" />
+                  <span>São Paulo, SP</span>
+                </div>
               </div>
+
             </div>
           </div>
         </div>
       </section>
-      
+
 
       {/* Footer */}
       <footer className="border-t border-slate-200 bg-neutral-50">
@@ -300,6 +306,3 @@ export default function CortelloDrinksLanding() {
     </div>
   );
 }
-
-
-
